@@ -27,8 +27,7 @@ A character that specifies the type of conversion to be applied. The conversion 
 The int argument is converted to an unsigned char, then the resulting character is written
 .TP
 .B s
-The const char * argument is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written
-up to a terminating null byte, but do ot include the terminating null byte.
+The const char * argument is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written up to a terminating null byte, but do ot include the terminating null byte.
 .TP
 .B S
 Prints a string. Non printable characters are printed as "\x" followed by their ASCII values in two digit hexadecimal
